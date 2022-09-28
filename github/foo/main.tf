@@ -1,13 +1,13 @@
 locals {
   # CHANGE
-  github_owner = "suzuki-shunsuke"
+  github_owner = "Yuichi-Kadota"
 }
 
 terraform {
   required_version = ">= 1.0"
   backend "s3" {
-    region = "us-east-1"        # CHANGE
-    bucket = "<S3 Bucket Name>" # CHANGE
+    region = "ap-northeast-1"        # CHANGE
+    bucket = "kdt0221-tfaction-sample" # CHANGE
     key    = "github/foo/v1/terraform.tfstate"
   }
 }
