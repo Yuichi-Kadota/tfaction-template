@@ -1,8 +1,8 @@
 locals {
   # CHANGE
-  repo_name      = "suzuki-shunsuke/tfaction-getting-started"
-  s3_bucket_name = "<S3 Bucket Name for tfaction>"
-  region         = "us-east-1"
+  repo_name      = "Yuichi-Kadota/tfaction-template"
+  s3_bucket_name = "kdt0221-tfaction-sample"
+  region         = "ap-northeast-1"
 }
 
 terraform {
