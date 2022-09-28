@@ -1,0 +1,11 @@
+---
+# aqua - Declarative CLI Version Manager
+# https://aquaproj.github.io/
+registries:
+- type: standard
+  ref: v3.61.0 # renovate: depName=aquaproj/aqua-registry
+packages:
+- name: open-policy-agent/conftest@v0.34.0
+- name: terraform-linters/tflint@v0.41.0
+- name: aquasecurity/tfsec@v1.28.0
+- name: hashicorp/terraform@v1.3.0
